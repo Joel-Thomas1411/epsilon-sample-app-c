@@ -10,6 +10,4 @@ jobs:
       - name: Install toolchain
         uses: numworks/setup-arm-toolchain@latest
       - name: Run make build
-        run: make build
-      - name: Run make check
-        run: make check
+        run: make all
