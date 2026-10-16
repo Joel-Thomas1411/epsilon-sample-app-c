@@ -14,7 +14,7 @@ main.c \
 )
 
 CFLAGS = -std=c99
-CFLAGS += $(shell $(NWLINK) eadk-cflags)
+CFLAGS += $(shell $(NWLINK) eadk-cflags-device)
 CFLAGS += -Os -Wall
 CFLAGS += -ggdb
 LDFLAGS = -Wl,--relocatable
