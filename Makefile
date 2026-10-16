@@ -1,7 +1,7 @@
 APP_NAME = pb_sim
 APP_VERSION = 1.0.0
 API_LEVEL = 0
-ICON = assets/icon.png
+ICON = src/icon.png
 
 # Source files
 SRC = $(wildcard src/*.c)
