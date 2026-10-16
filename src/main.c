@@ -6,8 +6,7 @@
 #include <eadk.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include <string.h>
-#include "sprites.h"
+
 
 /* ------------------------------------------------------------------ */
 /*  App metadata (required by EADK)                                    */
